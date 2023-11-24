@@ -1,0 +1,12 @@
+.heading {
+    color: hsl(36, 100%, 99%);
+}
+
+.heading:hover {
+    color: hsl(35, 77%, 62%);
+    cursor: pointer;
+}
+
+.detail {
+    color: hsl(233, 8%, 79%);
+}

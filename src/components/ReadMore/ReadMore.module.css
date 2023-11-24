@@ -1,0 +1,20 @@
+.paragraph {
+    color: hsl(236, 13%, 42%);
+    line-height: 1.5;
+    font-size: 17px;
+}
+
+.readmoreButton {
+    padding: 20px 35px;
+    background-color: hsl(5, 85%, 63%);
+    color: hsl(36, 100%, 99%);
+    border: 0;
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: bold;
+}
+
+.readmoreButton:hover {
+    cursor: pointer;
+    background-color: hsl(240, 100%, 5%);
+}

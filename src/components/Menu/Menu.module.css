@@ -1,0 +1,36 @@
+.sideMenu {
+    position: fixed;
+    left: 30%;
+    top: 0;
+    height: 100%;
+    width: 70%;
+    background-color: whitesmoke;
+    z-index: 10;
+}
+
+.backdrop {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.menuList {
+    margin-top: 100px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.menuListItem {
+    font-size: 20px;
+}
+
+.menuImage {
+    margin-top: 30px;
+    margin-left: 80%;
+    text-align: end;
+}

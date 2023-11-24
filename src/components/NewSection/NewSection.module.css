@@ -1,0 +1,8 @@
+.newSectionBackground {
+    background-color: hsl(240, 100%, 5%);
+    padding: 30px;
+}
+
+.heading {
+    color: hsl(35, 77%, 62%);
+}

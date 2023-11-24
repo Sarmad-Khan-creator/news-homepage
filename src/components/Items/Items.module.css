@@ -1,0 +1,42 @@
+.wrapper {
+  display: flex;
+  height: 200px;
+  gap: 40px;
+}
+
+.image {
+  height: 150px;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 200px;
+}
+
+.number {
+  color: hsl(236, 13%, 42%);
+  margin: 0;
+}
+
+.heading {
+  color: hsl(240, 100%, 5%);
+  margin: 0;
+}
+
+.heading:hover {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+
+.detail {
+  color: hsl(236, 13%, 42%);
+  margin: 0;
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    gap: 20px;
+  }
+}
